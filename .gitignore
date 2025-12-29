@@ -1,0 +1,21 @@
+# --- SISTEMA ---
+venv/
+__pycache__/
+.ipynb_checkpoints/
+.env
+
+# --- DATOS PESADOS (Bloqueo total) ---
+data/
+*.parquet
+*.csv
+*.xlsx
+*.zip
+*.tar.gz
+
+# --- MODELOS ---
+models/
+*.pkl
+*.h5
+
+# --- OTROS ---
+logs/
